@@ -1,0 +1,11 @@
+# KiCad local state, backups, and autosaves
+*.kicad_prl
+*-backups/
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-save.kicad_pcb
+fp-info-cache
+*.lck
+*~
+# Native project files (.kicad_pro, .kicad_sch, .kicad_pcb) are intentionally tracked.

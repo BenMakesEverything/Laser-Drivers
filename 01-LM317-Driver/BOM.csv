@@ -1,1 +1,8 @@
 Reference,Quantity,Value,Description,Manufacturer,Manufacturer Part Number,Footprint,Supplier,Supplier Part Number,Notes
+LM317 regulator,1,LM317,"Adjustable regulator, TO-220",,LM317 (exact suffix TBD),TO-220,,,"Exact manufacturer/variant to be selected"
+N-channel MOSFET,1,P30N60,N-channel MOSFET,,P30N60,Verify package,,,"Verify exact device suffix, footprint, ratings and availability"
+Current-setting resistor,1,TBD,"Current-setting resistor, minimum 2 W",,,TBD,,,"Resistance depends on desired laser current"
+Decoupling capacitor (bulk),1,10 uF,Power supply decoupling capacitor,,,TBD,,,"Voltage rating, polarity, dielectric and package TBD"
+Decoupling capacitor (high-frequency),1,0.1 uF,Power supply decoupling capacitor,,,TBD,,,"Voltage rating, dielectric and package TBD"
+Pull-down resistor,1,10 kOhm,Pull-down resistor,,,TBD,,,"Power rating and package TBD"
+Bias resistor,1,TBD,"Bias resistor, 2 W",,,TBD,,,"Resistance depends on target bias current"

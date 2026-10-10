@@ -2,10 +2,6 @@
 
 Three levels of laser driver circuits:
 
-- Beginner: LM317 constant current driver (Digital)
-- Intermediate: Op-Amp + Mosfet driver (Analog)
-- Advanced: LMH13000-based driver board
-
 | Design | Description |
 |---|---|
 | [Beginner — LM317 Driver](01-LM317-Driver/) | Basic constant-current laser diode driver |

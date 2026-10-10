@@ -26,5 +26,13 @@ To select the right resistor value. You can use this table for quick reference:
 
 Use this website to calculate values: https://www.reuk.co.uk/wordpress/electric-circuit/lm317-current-calculator/
 
+## Build notes
+
+- Yes, the resistors are mounted vertically. It makes for a smaller PCB.
+- The BIAS resistor is optional. It just improves switching speed.
+- Remember that the bias resistor adds additional current to the LM317's current.
+- This design is pin-compatible with the advanced driver, although not all of the pins are used here.
+
 ## Testing
-I recommend testing the circuit with a lower current level than the laser is rated for before increasing it to the final desired amount. If a diode is rated for 100 mA, but you only give it 50 mA, nothing bad will happen. However, the reverse will probably fry the diode permanently.
+
+I recommend testing the circuit with a lower current level than the laser is rated for before increasing it to the final desired amount. If a diode is rated for 100 mA, but you only give it 50 mA, nothing bad will happen. However, the opposite will probably fry the diode permanently.

@@ -7,7 +7,7 @@ A basic Laser Driver based around the LM317 voltage regulator and a MOSFET for r
 ## Files
 
 - [KiCad project archive](KiCad/Basic_Laser_Driver_KiCad.zip)
-- [PCB production files (Gerbers and supporting files)](Production/LM317_driver_production_files.zip)
+- [PCB production files (Gerbers and supporting files)](Production-files/LM317_driver_production_files.zip)
 - [Bill of materials](BOM.csv)
 
 ## Design notes
@@ -23,6 +23,8 @@ To select the right resistor value. You can use this table for quick reference:
 - 10 Ω = 125mA
 - 15 Ω = 85mA
 - 20 Ω = 62 mA
+
+Use this website to calculate values: https://www.reuk.co.uk/wordpress/electric-circuit/lm317-current-calculator/
 
 ## Testing
 I recommend testing the circuit with a lower current level than the laser is rated for before increasing it to the final desired amount. If a diode is rated for 100 mA, but you only give it 50 mA, nothing bad will happen. However, the reverse will probably fry the diode permanently.

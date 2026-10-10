@@ -2,7 +2,7 @@
 
 A basic Laser Driver based around the LM317 voltage regulator and a MOSFET for rapid switching.
 
-![LM317 laser driver PCB, top view](Images/Basic-Driver-PCB-Top.png)
+![LM317 laser driver PCB, top view](Images/Basic-Driver-PCB.png)
 
 ## Files
 

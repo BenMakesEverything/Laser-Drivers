@@ -5,11 +5,13 @@ Analog laser diode driver based on LMH13000.
 ## Design specifications
 | Parameter | Value |
 |---|---|
-| Supply voltage | To be documented |
-| Laser current range | To be documented |
-| Modulation/control input | To be documented |
-| Measured performance | Not documented yet |
-| Validation status | Pending |
+| VLD Supply voltage | To be documented |
+| Driver PWR voltage | 3.3-5V |
+| DAC input range | 0-2V |
+| Laser current range, Low Setting | Low: 5mA - 1A |
+| Laser current range, High Setting | Low: 250mA - 5A* |
+| Signal voltage | 3.3V |
+| Rise Time | Not documented yet |
 
 ## Contents
 - **KiCad/** — KiCad project, schematic, and PCB files
@@ -17,7 +19,7 @@ Analog laser diode driver based on LMH13000.
 - **Images/** — schematic exports, PCB renders, and board photos
 
 ## Build notes
-Add setup, adjustment, thermal design, wiring, and dummy-load testing instructions here.
+Coming soon....
 
 ## Safety
 Verify maximum current, transient behavior and output polarity into a dummy load before attaching a laser diode. Use appropriate eye protection and safe beam containment.

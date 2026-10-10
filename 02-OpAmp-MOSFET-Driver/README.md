@@ -7,11 +7,10 @@ Analog current regulator using an op-amp, MOSFET, and current-sense resistor.
 ## Design specifications
 | Parameter | Value |
 |---|---|
-| Supply voltage | To be documented |
-| Laser current range | To be documented |
-| Modulation/control input | To be documented |
-| Measured performance | Not documented yet |
-| Validation status | Pending |
+| Supply voltage | 9-12V Recommended |
+| Laser current range | Based on Current-Sense Resistor value |
+| Modulation/control input | DAC pin: 0-5V |
+| Rise time* | Not documented yet |
 
 ## Contents
 - **KiCad/** — KiCad project, schematic, and PCB files
@@ -19,7 +18,7 @@ Analog current regulator using an op-amp, MOSFET, and current-sense resistor.
 - **Images/** — schematic exports, PCB renders, and board photos
 
 ## Build notes
-Add setup, adjustment, thermal design, wiring, and dummy-load testing instructions here.
+Coming soon
 
 ## Safety
 Verify maximum current, transient behavior and output polarity into a dummy load before attaching a laser diode. Use appropriate eye protection and safe beam containment.

@@ -1,5 +1,3 @@
-# Laser Diode Drivers
-
 ![LM317 laser driver PCB, top view](Laser-Drivers-Header.png)
 
 Three levels of laser driver circuits:

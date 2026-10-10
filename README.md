@@ -6,7 +6,7 @@ Three levels of laser driver circuits:
 |---|---|
 | [Beginner — LM317 Driver](01-LM317-Driver/) | Basic constant-current laser diode driver |
 | [Intermediate — Op-Amp + MOSFET Driver](02-OpAmp-MOSFET-Driver/) | Adjustable analog current driver |
-| [Adveanced — LMH13000 Driver](03-LMH13000-Driver/) | High-speed analog laser diode driver |
+| [Advanced — LMH13000 Driver](03-LMH13000-Driver/) | High-speed analog laser diode driver |
 
 
 ## Status

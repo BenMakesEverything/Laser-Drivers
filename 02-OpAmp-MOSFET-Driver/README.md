@@ -1,6 +1,6 @@
 # Op-Amp + MOSFET Laser Diode Driver
 
-![Analog laser driver PCB, top view](Images/Intermediate-Driver-PCB-Render-Top.png)
+![Analog laser driver PCB, top view](Images/Intermediate-Driver-PCB-Top.png)
 
 Analog current regulator using an op-amp, MOSFET, and current-sense resistor.
 
@@ -20,5 +20,5 @@ Analog current regulator using an op-amp, MOSFET, and current-sense resistor.
 ## Build notes
 Coming soon
 
-## Safety
-Verify maximum current, transient behavior and output polarity into a dummy load before attaching a laser diode. Use appropriate eye protection and safe beam containment.
+## Testing
+Do not exceed 12V for the main supply voltage. Start with 0V on the DAC input pin and gradually increase, measuring output current with a multimeter in series with the laser diode. Laser power is directly proportional to input voltage. Remember that the total current is equal to bias current plus current set by DAC. 

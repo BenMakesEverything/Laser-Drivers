@@ -1,5 +1,7 @@
 # Op-Amp + MOSFET Laser Diode Driver
 
+![LM317 laser driver PCB, top view](Images/Intermediate-Driver-PCB-Top.png)
+
 Analog current regulator using an op-amp, MOSFET, and current-sense resistor.
 
 ## Design specifications

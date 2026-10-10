@@ -2,7 +2,7 @@
 
 ![LMH13000 laser driver PCB, top view](Images/Advanced-Driver-PCB-Top.png)
 
-Analog laser diode driver based on LMH13000.
+High-Speed analog laser diode driver based on Texas Instruments LMH13000 Driver IC.
 
 ## Design specifications
 | Parameter | Value |
@@ -25,5 +25,7 @@ Analog laser diode driver based on LMH13000.
 ## Build notes
 Coming soon....
 
-## Safety
-Verify maximum current, transient behavior and output polarity into a dummy load before attaching a laser diode. Use appropriate eye protection and safe beam containment.
+## Testing
+Do not exceed 2 V on the DAC input pin. 2 V = maximum current setting. In low power mode, this is 1 A. In high power mode, this is 5 A. This board was designed to be used in low-power mode. Performance in high-power mode not guaranteed. Do not use high power mode except in very short bursts/low duty-cycle.
+
+Modulation/switching can be controlled independently from brightness control. Signal pin high = laser on. Low = laser off. EN pin must also be driven high for the laser to be switched on.

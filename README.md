@@ -1,5 +1,7 @@
 # Laser Diode Drivers
 
+![LM317 laser driver PCB, top view](Laser-Drivers-Header.png)
+
 Three levels of laser driver circuits:
 
 | Design | Description |
@@ -10,7 +12,7 @@ Three levels of laser driver circuits:
 
 
 ## Status
-Repository structure and documentation templates are set up. Actual KiCad design files, parts lists, images, and test measurements must be added and reviewed individually. Do not treat the templates as validated design data.
+Repository under construction...
 
 ## Safety
 Laser light can cause permanent eye damage and burn skin. Use wavelength and power-appropriate laser protection. Do not point lasers at people, animals, vehicles, aircraft, etc. Avoid reflective surfaces.

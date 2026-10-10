@@ -1,5 +1,7 @@
 # LMH13000 Laser Diode Driver
 
+![LMH13000 laser driver PCB, top view](Images/Advanced-Driver-PCB-Top.png)
+
 Analog laser diode driver based on LMH13000.
 
 ## Design specifications

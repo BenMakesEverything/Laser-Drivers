@@ -15,7 +15,7 @@ High-Speed analog laser diode driver based on Texas Instruments LMH13000 Driver 
 | Signal voltage | 3.3V |
 | Rise Time | Not documented yet |
 
-*High power setting not tested - use with caution and only in short bursts/low duty cycle.
+*High power setting not tested - Not recommended at this point.
 
 ## Files
 
@@ -24,7 +24,7 @@ High-Speed analog laser diode driver based on Texas Instruments LMH13000 Driver 
 - [Bill of materials](BOM.csv)
 
 ## Build notes
-Coming soon....
+This board contains 0402 sized components. I suggest having it professionally assembled.
 
 ## Testing
 Do not exceed 2 V on the DAC input pin. 2 V = maximum current setting. In low power mode, this is 1 A. In high power mode, this is 5 A. This board was designed to be used in low-power mode. Performance in high-power mode not guaranteed. Do not use high power mode except in very short bursts/low duty-cycle.

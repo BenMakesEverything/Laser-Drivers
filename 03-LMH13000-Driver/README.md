@@ -4,6 +4,8 @@
 
 High-Speed analog laser diode driver based on Texas Instruments LMH13000 Driver IC.
 
+## Not designed for continuous operation! Duty cycle limits depend on output current setting.
+
 ## Design specifications
 | Parameter | Value |
 |---|---|

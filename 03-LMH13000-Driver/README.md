@@ -7,7 +7,7 @@ High-Speed analog laser diode driver based on Texas Instruments LMH13000 Driver 
 ## Design specifications
 | Parameter | Value |
 |---|---|
-| VLD Supply voltage | Dependent on Laser Diode (9V seems to work for Green and Blue, Red would be lower) |
+| VLD Supply voltage | Depends on Diode (9V seems to work for Green and Blue, Red not tested yet) |
 | Driver PWR voltage | 3.3-5V |
 | DAC input range | 0-2V |
 | Laser current range, Low Setting | Low: 5mA - 1A |
@@ -19,8 +19,8 @@ High-Speed analog laser diode driver based on Texas Instruments LMH13000 Driver 
 
 ## Files
 
-- [KiCad project archive](KiCad/LMH13000_Laser_Driver_KiCad_v1-1)
-- [PCB production files (Gerbers and supporting files)](Production-files/LMH13000_Laser_Driver_production-files_v1-1)
+- [KiCad project archive](KiCad/LMH13000_Laser_Driver_KiCad_v1-1.zip)
+- [PCB production files (Gerbers and supporting files)](Production-files/LMH13000_Laser_Driver_production-files_v1-1.zip)
 - [Bill of materials](BOM.csv)
 
 ## Build notes
